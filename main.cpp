@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
+#include <conio.h>
 using namespace std;
 
 #define SIZE 9
@@ -106,4 +107,5 @@ int main()
     }
 
     printSudoku(SUDOKU);
+    getch();
 }
